@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(hsl(239, 66%, 33%), rgb(131, 131, 37));
+    width: 100%;
+    color: #fff;
+    font-style: italic;
+    background: url(https://images.app.goo.gl/yeenAY24XKWVt4Pk7);
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    'a a b b'
+    'c c d d'
+    ; 
+}
+.me1{
+    grid-area: a;
+    width: 30%;
+}
+.me2{
+    grid-area: b;
+    width: 65%;
+}
+.me3{
+    grid-area: c;
+    width: 45%;
+}
+.me4{
+    grid-area: d;
+    width: 50%;
+}
+h2{
+    color: black;
+}
